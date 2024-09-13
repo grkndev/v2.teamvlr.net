@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Analytics />
       <body className={`${montserrat.className} bg-[#0B0B0B] antialiased `}>
+        <Analytics />
         <Toaster />
         <div className="w-full relative flex">
           <Navbar />
