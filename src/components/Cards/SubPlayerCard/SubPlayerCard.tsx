@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
+
 export default function SubPlayerCard({ player }: { player: any }) {
   return (
     <Card className="bg-[#1E1E1E]  w-[6rem] md:w-[9rem] border-2 border-[#2E2D2D] rounded-none">

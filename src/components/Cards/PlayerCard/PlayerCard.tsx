@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Trash } from "lucide-react";
 import Image from "next/image";
+
 export default function PlayerCard({ player, deletePlayer }: { player: any, deletePlayer: (player: any) => void }) {
   return (
     <Card className=" bg-[#1E1E1E] w-[10rem] md:w-[12.5rem] border-2 border-[#2E2D2D] ">

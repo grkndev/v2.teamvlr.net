@@ -76,7 +76,7 @@ export default function AddPlayerCard({
       <DrawerContent className="bg-[#0B0B0B] border-none text-white">
         <DrawerHeader>
           <DrawerTitle>New Player Add</DrawerTitle>
-          <DrawerDescription>Please enter the player&apos;s name</DrawerDescription>
+          <DrawerDescription>Please enter the player&apos;s name.</DrawerDescription>
         </DrawerHeader>
         <div className="flex items-center justify-center px-4 flex-col space-y-4">
           <Input
